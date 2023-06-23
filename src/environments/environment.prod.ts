@@ -1,8 +1,7 @@
 export const environment = {
     production: true,
     appName: 'Golobe',
-    api: {
-    },
+    api: {},
     google: {
         maps: {
             apiUrl: '',
@@ -10,7 +9,6 @@ export const environment = {
         },
     },
     mapbox: {
-        accessToken:
-            '',
+        accessToken: '',
     },
 };

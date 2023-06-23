@@ -1,4 +1,15 @@
-/* You can add global styles to this file, and also import other style files */
+@charset "utf-8";
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+@import 'https://api.mapbox.com/mapbox-gl-js/v1.0.0/mapbox-gl.css';
+@import 'https://use.fontawesome.com/releases/v6.1.1/css/all.css';
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+//@import 'styles/global';
+
+html,
+body {
+    height: 100%;
+}
